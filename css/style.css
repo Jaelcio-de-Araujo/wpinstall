@@ -1,0 +1,18 @@
+/*Configuração Geral*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{margin: 0px; padding: 0px;}
+.bi.bi-wordpress{font-size: 100px; color: #ffffff;}
+.bi.bi-heart-fill{color: #ffffff;}
+.bi.bi-play-btn-fill{font-size: 100px; color: #ff0000;display: flex;justify-content:center;}
+.header{display: flex;justify-content:center; margin: 4px; font-family: 'Lato', sans-serif;color: #ffffff;}
+.observation{font-family: 'Lato', sans-serif; text-align: center;color: #ffffff;}
+.important{font-family: 'Lato', sans-serif; text-align: center justify;color: #000000;}
+.jumbotron{background-color: #0073aa;}
+
+/*Barra de progresso*/
+.progress{margin-top: 10px;}
+
+/*Botão proximo passo*/
+.btn.btn-primary{margin: 10px 0px;}
