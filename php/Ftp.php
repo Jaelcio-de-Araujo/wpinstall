@@ -15,7 +15,8 @@ class Ftp
         // set up a connection or die
         $conn_id = ftp_connect($server) or die("Couldn't connect to $server");
         //try ftp login
-        if (@ftp_login($conn_id, $ftp_data['ftp']['user'], $ftp_data['ftp']['pass'])) {
+        if (@ftp_login($conn_id, $ftp_data['ftp']['user'], $ftp_data['ftp']['pass'])) 
+        {
             echo "Connectado ao ftp\n";
         } else {
             echo "Erro ao tentar conectar ao ftp\n";
@@ -23,9 +24,10 @@ class Ftp
         // close the connection
         ftp_close($conn_id);      
         }
-        
-    protected function criarPHP_ini()
+
+    public function makePhpini()
     {
-        $php_ini = fopen('php.ini','r+');
+        $phpIni = fopen("php.ini", 'x+') or die("Erro ao criar/gravar arquivo");
+        return "$phpIni";
     }
-}
+    }
