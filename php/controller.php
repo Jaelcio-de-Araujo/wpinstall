@@ -5,8 +5,12 @@ $dados = new Ftp();
 //checking empty value.
 
 if ($_POST and $_POST != 0) {
+
+//Conecting FTP
 $dados -> conectFtp();
-$dados -> makePhpini();
+
+//Creat .htaccess File
+$dados -> makeHtaccess();
 }
 else
 {

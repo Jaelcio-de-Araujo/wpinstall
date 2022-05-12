@@ -39,7 +39,7 @@ Thumbs.db
 *.app
 *.exe
 *.war
-
+dados_ftp.txt
 # Large media files
 *.mp4
 *.tiff
