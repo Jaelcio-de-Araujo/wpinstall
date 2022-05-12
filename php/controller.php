@@ -14,7 +14,7 @@ $dados -> makeHtaccess();
 }
 else
 {
-    echo "Erro digite dados  idiota";
+    echo "Erro digite dados de acesso";
 }
 
 
